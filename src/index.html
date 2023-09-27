@@ -1,140 +1,171 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="/dist/output.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
- 
-</head>
-<body>
-<header class="">
-  <!-- first section -->
-  <section>
-   <div class="bg-primary h-12 flex justify-between items-center">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="">
+      <!-- first section -->
+      <section>
+        <div class="bg-primary h-12 flex justify-between items-center">
+          <div class="flex ml-20 items-center">
+            <div class="flex">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3"
+                />
+              </svg>
+              <span class="hover:text-secondary">+7758345</span>
+            </div>
+            <div class="flex space-x-2 ml-3">
+              <a
+                href="#"
+                class="p-1 px-2 rounded-full bg-blue-800 text-white hover:bg-black"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a
+                href="#"
+                class="p-1 px-2 rounded-full bg-sky-400 text-white hover:bg-black"
+              >
+                <i class="fa-brands fa-twitter"></i
+              ></a>
+              <a
+                href="#"
+                class="p-1 px-2 rounded-full bg-[#007bb6] text-white hover:bg-black"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a
+                href="#"
+                class="p-1 px-2 rounded-full bg-secondary text-white hover:bg-black"
+              >
+                <i class="fa-brands fa-instagram"></i
+              ></a>
+            </div>
+          </div>
 
-     <div class="flex ml-20 items-center">
-      <div class="flex ">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
-        </svg>
-        <span class="hover:text-secondary">+7758345</span>
-
-      </div>
-      <div class="flex space-x-2 ml-3">
-
-
-      <a href="#" class="p-1 px-2 rounded-full bg-blue-800 text-white hover:bg-black"><i class="fa-brands fa-facebook"></i></a>
-      <a href="#" class="p-1 px-2 rounded-full bg-sky-400 text-white hover:bg-black"> <i class="fa-brands fa-twitter"></i></a>  
-      <a href="#" class="p-1 px-2 rounded-full bg-[#007bb6] text-white hover:bg-black"><i class="fa-brands fa-linkedin"></i></a>
-      <a href="#" class="p-1 px-2 rounded-full bg-secondary text-white hover:bg-black"> <i class="fa-brands fa-instagram"></i></a>
-       
-        
-       
-
-      </div>
-    </div>
-
-      <div class="flex space-x-8 mr-20">
-        <a href="#"><p class="hover:text-secondary">My Account</p></a>
-        <a href="#"><p class="hover:text-secondary">Order List</p></a>
-        <a href="#"><p class="hover:text-secondary">Check Out</p></a>
-       <div class="flex">       
-         <p class="ml-2">En</p><select name="" id=""></select>
+          <div class="flex space-x-8 mr-20">
+            <a href="#"><p class="hover:text-secondary">My Account</p></a>
+            <a href="#"><p class="hover:text-secondary">Order List</p></a>
+            <a href="#"><p class="hover:text-secondary">Check Out</p></a>
+            <div class="flex">
+              <p class="ml-2">En</p>
+              <select name="" id=""></select>
+            </div>
+            <div class="flex">
+              <p>$USD</p>
+              <select class="border-none" name="" id=""></select>
+            </div>
+          </div>
         </div>
-       <div class="flex">
-        <p>$USD</p>
-        <select name="" id=""></select>
-       </div>
-      </div>
+      </section>
+      <!-- second section -->
+      <section>
+        <div class="bg-white h-16 w-full flex p-3 justify-between">
+          <div class="ml-20">
+            <img src="/img/logo.png" alt="" />
+          </div>
+          <div class="flex space-x-10 mr-20">
+            <div class="flex">
+              <input
+                class="outline-0 h-10 w-[190px] bg-primary text-center rounded focus:border-sky-500 focus:ring-2 focus:ring-sky-500"
+                type=" text"
+                placeholder="Type text and hit enter"
+              />
+            </div>
 
-    </div>
+            <div class="flex bg-primary h-10 rounded-lg px-3 justify-center items-center text-center text-opacity-50">
+              <p>All Categories</p>
+            </div>
+            <div class="justify-center items-center">
+              <button
+                class="bg-black text-white h-10 rounded w-14 hover:bg-secondary">
+                Search
+              </button>
+            </div>
 
-  </section>
-  <!-- second section -->
-  <section>
-    <div class= "bg-white h-16 w-full flex p-5  justify-evenly ">
-      <div class="ml-20">
-        <img src="/img/logo.png" alt="">
-      </div>
-      <div class="">
-        <input class="outline-0 h-10 w-[190px] bg-primary text-center rounded" type=" text" placeholder="Type text and hit enter">
-      </div>
+            <div class="flex space-x-2">
+              <a href="#" class="">
+                <i class="fa-solid fa-scale-balanced"></i
+              ></a>
+              <a href="#" class="hover:text-secondary"><p>Compare</p></a>
+              <a href="#">
+                <p class="rounded-full bg-secondary px-2 text-white">0</p></a
+              >
+            </div>
+            <div class="flex space-x-2 mr-20">
+              <a href="#"><i class="fa-regular fa-heart"></i></a>
+              <a href="#" class="hover:text-secondary"><p>WhiteList</p></a>
+              <a href="#">
+                <p class="rounded-full bg-secondary px-2 text-white">0</p></a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
 
-      <div class=" flex bg-primary h-10 rounded text-center  ">
-        <p>All Categories</p>
-        <select name="" id=""></select>
-      </div>
-      <div>
-        <button class="bg-black text-white h-10 rounded w-14 hover:bg-secondary">Search</button>
-      </div>
-
-      <div class="flex space-x-2">
-        <a href="#" class=""> <i class="fa-solid fa-scale-balanced"></i></a>
-        <a href="#" class="hover:text-secondary"><p>Compare</p></a>
-        <a href="#"> <p class="rounded-full bg-secondary px-2 text-white">0</p></a>
-       
-        
-       
-      </div>
-      <div class="flex space-x-2 mr-20">
-        <a href="#"><i class="fa-regular fa-heart"></i></a>
-        <a href="#" class="hover:text-secondary"><p>WhiteList</p></a>
-        <a href="#"> <p class=" rounded-full bg-secondary px-2 text-white">0</p></a>
-        
-       
-      </div>
-
-
-
-    </div>
-
-
-
-  </section>
-
-  <!-- third section -->
-  <section class="mt-2">
-    <div class="h-12 bg-red-300 w-full flex justify-between ">
-      <div class="font-bold flex space-x-8 ml-20 p-2">
-
-       <div class="flex hover:top-4">
-        <p>Pages</p>
-        <select name="" id=""></select>
-       </div>
-       <div class="flex">
-        <p>Mans</p>
-        <select name="" id=""></select>
-       </div>
-       <div class="flex">
-        <p>Womens</p>
-        <select name="" id=""></select>
-       </div>
-       <div>
-        <p>Shop</p>
-       </div>
-       <div>
-        <p>Vlog</p>
-       </div>
-       <div>
-        <p>Contant</p>
-       </div>
-      </div>
-      <div class="flex mr-20 space-x-5 p-2">
-      <div class="hover:bg-secondary px-3 rounded">
-        <i class="fa-solid fa-lock"></i>
-      </div>
-      <div class="flex p-2 items-center bg-black hover:bg-secondary text-white rounded ">
-        <i class="fa-solid fa-cart-shopping"></i>
-        <p>Cart0</p>
-      </div>
-     </div>
-    </div>
-
-  </section>
-</header>
-
-
-  
-</body>
+      <!-- third section -->
+      <section class="mt-3">
+        <div class="h-12 bg-white w-full flex justify-between">
+          <div class="font-bold flex space-x-8 ml-20 p-2">
+            <div
+              class="flex hover:border-secondary hover:border-t-4 transition duration-150 ease-out md:ease-in"
+            >
+              <p>Pages</p>
+              <select name="" id=""></select>
+            </div>
+            <div
+              class="flex hover:border-t-4 hover:border-secondary"
+            >
+              <p>Mans</p>
+              <select name="" id=""></select>
+            </div>
+            <div
+              class="flex  hover:border-t-4 hover:border-secondary"
+            >
+              <p>Womens</p>
+              <select name="" id=""></select>
+            </div>
+            <div class=" hover:border-t-4 hover:border-secondary">
+              <p>Shop</p>
+            </div>
+            <div class=" hover:border-t-4 hover:border-secondary">
+              <p>Vlog</p>
+            </div>
+            <div>
+              <p class=" hover:border-t-4 hover:border-secondary">
+                Contant
+              </p>
+            </div>
+          </div>
+          <div class="flex mr-20 space-x-5 p-2">
+            <div class="hover:bg-secondary px-2 rounded">
+              <i class="fa-solid fa-lock"></i>
+            </div>
+            <div
+              class="flex p-2 items-center bg-black hover:bg-secondary text-white rounded"
+            >
+              <i class="fa-solid fa-cart-shopping"></i>
+              <p>Cart0</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+    
+  </body>
 </html>
